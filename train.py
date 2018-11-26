@@ -7,6 +7,7 @@ from util.visualizer import Visualizer
 def plot_url():
     file = open('url.txt','r')
     content = file.readlines()[-1]
+    print(content)
     file.close()
 
 if __name__ == '__main__':
